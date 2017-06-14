@@ -1,5 +1,5 @@
 body {
-    background-image: url("background.png");
+    background: #193a1f;
    
 }
 
@@ -10,9 +10,29 @@ h1, p {
     
 }
 
+ul {
+    color: #8eee05;
+    font-family: Helvetica,sans-serif;
+    font-weight: 800;
+    
+}
+
 #hero {
 	display: block;
 	margin: auto;
 	width: 25%;
 
+}
+
+#slogan {
+	font-style: italic;
+
+}
+
+a:link {
+    color: #ff00ff;
+}
+
+a:visited {
+    color: #ffc0ff;
 }
