@@ -9,3 +9,10 @@ h1, p {
     text-align: center;
     
 }
+
+#hero {
+	display: block;
+	margin: auto;
+	width: 25%;
+
+}
