@@ -1,31 +1,46 @@
 body {
-    background: #193a1f;
-   
+    background-image: url("../images/background1.png");
+    /*background: #123819;*/
+  
+
 }
 
 h1, p {
     color: #FFC90E;
-    font-family: Helvetica, sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     text-align: center;
     
 }
 
+h1 {
+	background: #333333;
+}
+
+
+p {
+	background: #004040; 
+	
+}
+
 ul {
     color: #8eee05;
-    font-family: Helvetica,sans-serif;
+    background: #004040;
+    font-family: "Trebuchet MS",sans-serif;
     font-weight: 800;
     
 }
+
+#slogan {
+	font-style: italic;
+
+}
+
+
 
 #hero {
 	display: block;
 	margin: auto;
 	width: 25%;
-
-}
-
-#slogan {
-	font-style: italic;
 
 }
 
