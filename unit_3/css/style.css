@@ -15,18 +15,17 @@ body {
 
 .navbar0a {
 	display: inline;
+	background: #90091d;
 }
 
 .navbar0b:link {
-    	color: #FFC90E;
-	background: #90091d; 
+    	color: #FFC90E; 
 	font-weight: 800;
 	text-decoration: none;
 }
 
 .navbar0b:visited {
 	color: #fff4cc;
-	background: #90091d; 
 	font-weight: 800;
 	text-decoration: none;
 }
