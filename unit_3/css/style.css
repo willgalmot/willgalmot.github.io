@@ -7,14 +7,14 @@ body {
 }
 
 #navbar0 {
-    list-style-type: none;
-	text-align:center;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .navbar0a {
-    display: inline;
+	display: inline;
+	text-align: center;
 }
 
 .navbar0b:link {
