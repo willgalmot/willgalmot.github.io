@@ -12,16 +12,15 @@ body {
 	padding: 0;
 }
 
-li {
+.navbar0a {
 	display: inline;
-	text-align: center;
 }
 
-.navbar0a:link {
+.navbar0b:link {
     color: #FFC90E;
 }
 
-.navbar0a::visited {
+.navbar0b::visited {
     color: #fff4cc;
 }
 
