@@ -19,14 +19,14 @@ body {
 
 .navbar0b:link {
     	color: #FFC90E;
-	background-color: #90091d; 
+	background: #90091d; 
 	font-weight: 800;
 	text-decoration: none;
 }
 
 .navbar0b::visited {
 	color: #fff4cc;
-	background-color: #90091d; 
+	background: #90091d; 
 	font-weight: 800;
 	text-decoration: none;
 }
