@@ -6,13 +6,13 @@ body {
 
 }
 
-ul {
+#navbar0 {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+.navbar {
     display: inline;
 }
 
