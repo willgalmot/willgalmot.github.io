@@ -18,11 +18,13 @@ body {
 }
 
 .navbar0b:link {
-    color: #FFC90E;
+    	color: #FFC90E;
+	text-decoration: none;
 }
 
 .navbar0b::visited {
-    color: #fff4cc;
+	color: #fff4cc;
+	text-decoration: none;
 }
 
 h1, p {
