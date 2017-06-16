@@ -1,8 +1,19 @@
 body {
-    background-image: url("../images/background0.png");
-    /*background: #123819;*/
-  
+	background-image: url("../images/background0.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    	/*background: #123819;*/
 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
 }
 
 h1, p {
@@ -11,6 +22,8 @@ h1, p {
     text-align: center;
     
 }
+
+
 
 h1 {
 	background: #333333;
