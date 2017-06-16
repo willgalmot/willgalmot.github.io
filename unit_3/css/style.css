@@ -24,7 +24,7 @@ body {
 	text-decoration: none;
 }
 
-.navbar0b::visited {
+.navbar0b:visited {
 	color: #fff4cc;
 	background: #90091d; 
 	font-weight: 800;
