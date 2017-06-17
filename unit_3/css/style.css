@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: ##90091d;
 }
 
 #nav0 li {
@@ -20,7 +20,7 @@ body {
 
 #nav0 li a {
     display: block;
-    color: #FFFFFF;
+    color: #FFC90E;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
