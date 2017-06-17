@@ -6,26 +6,26 @@ body {
 
 }
 
-#navbar0 {
+#nav0 {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
 }
 
-.navbar0a {
+.nav0a {
 	display: inline;
 	background: #90091d;
 }
 
-.navbar0b {
+.nav0b {
 	right-padding: 15px;
 	left-padding: 15px;
 	font-weight: 800;
 	text-decoration: none;
 }
 
-.navbar0b:link {
+.nav0b:link {
     	color: #FFC90E; 
 	
 }
