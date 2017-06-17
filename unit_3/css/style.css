@@ -15,7 +15,8 @@ body {
 }
 
 #nav0 li {
-    float: center;
+    	display: inline;
+	float: center;
 }
 
 #nav0 li a {
