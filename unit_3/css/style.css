@@ -9,7 +9,7 @@ body {
 #navbar0 {
 	list-style-type: none;
 	margin: 0px;
-	padding: 50px;
+	padding: 0px;
 	text-align: center;
 }
 
@@ -18,16 +18,21 @@ body {
 	background: #90091d;
 }
 
-.navbar0b:link {
-    	color: #FFC90E; 
+.navbar0b {
+	right-padding: 15px;
+	left-padding: 15px;
 	font-weight: 800;
 	text-decoration: none;
 }
 
+.navbar0b:link {
+    	color: #FFC90E; 
+	
+}
+
 .navbar0b:visited {
 	color: #fff4cc;
-	font-weight: 800;
-	text-decoration: none;
+	
 }
 
 h1, p {
