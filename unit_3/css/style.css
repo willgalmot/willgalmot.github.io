@@ -7,11 +7,13 @@ body {
 }
 
 #nav0 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #90091d;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #90091d;
+	text-align: center;
+	margin: 0 auto;
+	width: 900px;
 }
 
 #nav0 li {
