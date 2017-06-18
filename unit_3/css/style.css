@@ -13,6 +13,7 @@ body {
 	background-color: #90091d;
 	text-align: center;
 	margin: 0 auto;
+	display: inline;
 	width: 900px;
 }
 
