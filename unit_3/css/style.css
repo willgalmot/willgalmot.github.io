@@ -25,7 +25,15 @@ body {
     	display: inline;
 }
 
-#nav0 li a {
+#nav0 li a:link {
+    display: block;
+    color: #FFC90E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav0 li a:visited {
     display: block;
     color: #FFC90E;
     text-align: center;
