@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+
 body {
 	background-image: url("../images/background0.png");
 	background-repeat: no-repeat;
@@ -19,21 +24,35 @@ body {
 
 #nav0 li {
     	display: inline;
-	
+	float: center;
 }
 
 #nav0 li a {
     display: block;
-    color: #FFC90E;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
- 
+#nav0 li a:link {
+    color: #FFC90E;
+}
+
+#nav0 li a:visited{
+    color: #ffc903;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+ }
+
 h1, p {
     color: #FFC90E;
-    font-family: "Trebuchet MS", sans-serif;
+   
     text-align: center;
     
 }
@@ -53,7 +72,7 @@ p {
 ul {
     color: #8eee05;
     background: #004040;
-    font-family: "Trebuchet MS",sans-serif;
+    font-family: 'Play',sans-serif;
     font-weight: 800;
     
 }
