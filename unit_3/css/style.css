@@ -22,7 +22,9 @@ body {
 }
 
 #nav0 li {
-    	display: inline;
+    	display:inline;
+	padding:0;
+	margin:0;
 }
 
 #nav0 li a:link {
