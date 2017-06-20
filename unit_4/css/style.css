@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
-@import url('https://fonts.googleapis.com/css?family=Play');
 
 
 body {
@@ -75,7 +74,6 @@ p {
 ul {
     color: #8eee05;
     background: #004040;
-    font-family: 'Play',sans-serif;
     font-weight: 800;
     letter-spacing: 3px;
     word-spacing: 6px;
