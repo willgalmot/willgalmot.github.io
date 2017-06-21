@@ -20,6 +20,7 @@ nav {
     width: 900px;
     word-spacing: 2px;
     display: inline;
+    font-family: 'Bree-Serif', serif;
     
 }
 
@@ -74,6 +75,7 @@ ul {
     letter-spacing: 3px;
     word-spacing: 6px;
     line-height: 36px;
+    font-family: 'Bree Serif', serif;
     
 }
 
