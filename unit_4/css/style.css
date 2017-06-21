@@ -19,7 +19,6 @@ nav {
     text-align: center;
     width: 900px;
     word-spacing: 2px;
-    font-family: 'Bree-Serif', serif;
     
 }
 
@@ -27,6 +26,8 @@ nav a {
     text-align: center;
     padding: 50px 50px;
     text-decoration: none;
+    font-family: 'Bree-Serif', serif;
+    
 }
 
 nav a:link {
