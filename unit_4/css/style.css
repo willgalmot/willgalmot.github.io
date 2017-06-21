@@ -11,12 +11,12 @@ body {
 }
 
 nav {
-    list-style-type: none;
+    /*list-style-type: none;
     padding: 0;
     overflow: hidden;
+    margin: 0 auto;*/
     background-color: #90091d;
     text-align: center;
-    margin: 0 auto;
     width: 900px;
     word-spacing: 2px;
     display: inline;
