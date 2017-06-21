@@ -10,7 +10,7 @@ body {
 
 }
 
-#nav0 {
+nav {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -19,26 +19,22 @@ body {
     margin: 0 auto;
     width: 900px;
     word-spacing: 2px;
+    display: inline;
     
 }
 
-#nav0 li {
-    	display: inline;
-	float: center;
-}
-
-#nav0 li a {
-    display: block;
+nav a {
+    display: inline;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-#nav0 li a:link {
+nav a:link {
     color: #FFC90E;
 }
 
-#nav0 li a:visited{
+nav a:visited{
     color: #ffc903;
 }
 
