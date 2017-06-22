@@ -60,12 +60,12 @@ h1 {
 
 
 p {
-	background: #004040; 
+	background: rgba(0, 64, 64, .5); 
 }
 
 ul {
     color: #8eee05;
-    background: #004040;
+    background: rgba(0, 64, 64, .5);
     font-weight: 800;
     letter-spacing: 3px;
     word-spacing: 6px;
