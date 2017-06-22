@@ -38,7 +38,8 @@ nav a:visited{
 
 article {
     float: left;
-    margin-left:100px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 aside {
