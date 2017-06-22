@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+body {
+	background-image: url("../images/background0.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    	/*background: #123819;*/
+}
+
+nav {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #90091d;
+    text-align: center;
+    width: 900px;
+    word-spacing: 2px;
+    font-family: 'Bree Serif', serif;
+}
+
+nav a {
+    text-align: center;
+    padding: 50px 50px;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;   
+}
+
+nav a:link {
+    color: #FFC90E;
+}
+
+nav a:visited{
+    color: #FFF4CC;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+ }
+
+h1, p {
+    color: #FFC90E;
+    line-height: 24px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+
+
+h1 {
+	background: #333333;
+}
+
+
+p,ul {
+	background: rgba(0, 64, 64, .85); 
+}
+
+ul {
+    color: #8eee05;
+    font-weight: 800;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    line-height: 36px;
+    font-family: 'Bree Serif', serif;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+
+
+#hero {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+a:link {
+    color: #ff80ff;
+}
+
+a:visited {
+    color: #ff00ff;
+}
