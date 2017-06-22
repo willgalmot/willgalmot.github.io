@@ -36,10 +36,13 @@ nav a:visited{
     color: #FFF4CC;
 }
 
+#transcriptions {
+    margin: auto;
+}
+
 article {
     float: left;
     width: 400px;
-    margin: 0 auto;
 }
 
 aside {
@@ -48,7 +51,6 @@ aside {
 
 aside img {
     display: block;
-    margin: auto;
     width: 50%;
 }
 
