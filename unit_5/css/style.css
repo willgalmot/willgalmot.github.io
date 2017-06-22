@@ -37,6 +37,10 @@ nav a:visited{
 }
 
 
+aside {
+    float: right;
+}
+
 aside img {
     display: block;
     margin: auto;
