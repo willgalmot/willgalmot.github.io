@@ -36,6 +36,13 @@ nav a:visited{
     color: #FFF4CC;
 }
 
+
+aside img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
 h1 {
     font-family: 'Bree Serif', serif;
 }
