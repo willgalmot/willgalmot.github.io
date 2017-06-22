@@ -59,13 +59,12 @@ h1 {
 }
 
 
-p {
-	background: rgba(0, 64, 64, .5); 
+p,ul {
+	background: rgba(0, 64, 64, .88); 
 }
 
 ul {
     color: #8eee05;
-    background: rgba(0, 64, 64, .80);
     font-weight: 800;
     letter-spacing: 3px;
     word-spacing: 6px;
