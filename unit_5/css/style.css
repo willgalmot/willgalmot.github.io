@@ -36,6 +36,10 @@ nav a:visited{
     color: #FFF4CC;
 }
 
+article {
+    float: left;
+    margin-left:100px;
+}
 
 aside {
     float: right;
