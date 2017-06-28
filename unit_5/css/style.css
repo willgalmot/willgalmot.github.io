@@ -11,12 +11,18 @@ body {
 }
 
 header {
-    border: 7px #66cdaa inset;
+    background-color: rgba(255,237,116,.4);
+    border: 1px #000000 solid /*7px #66cdaa inset*/;
     padding: 20px;
+}
+
+header h1 {
+    padding: 15px;
 }
 
 header p {
     text-align: center;
+    padding: 5px;
 }
 
 nav {
@@ -24,7 +30,7 @@ nav {
     padding: 0;
     overflow: hidden;
     margin: 0 auto;
-    background-color: #90091d;
+    background-color: /*#90091d*/ #E8C66A;
     text-align: center;
     width: 900px;
     word-spacing: 2px;
@@ -47,7 +53,8 @@ nav a:visited{
 }
 
 section {
-    border: 5px #ff4444 groove;
+    border: 1px #000000 solid /*5px #ff4444 groove*/;
+    background-color: rgba(255,226,184,.4) /*rgba(255,68,68,.4)*/;
     padding:20px;
     margin: auto;
     float: center;
@@ -57,9 +64,11 @@ article {
     float: left;
     margin-left: 225px;
     width: 400px;
+     background-color: rgba(232,156,108,.4);
 }
 
 aside {
+    background-color: rgba(255,198,117,.4);
     float: right;
 }
 
@@ -148,8 +157,8 @@ a:visited {
 }
 
 footer {
-
-    border: 3px #ccff00 dotted;
+    background-color: rgba(255,149,126,.4)/*rgba(204,255,0,.4)*/;
+    border: 1px #000000 solid /*3px #ccff00 dotted*/;
     padding: 20px;
 }
 
@@ -157,8 +166,9 @@ footer p {
     margin: 0 auto;
     display: block;
     background: rgba(139,0,0,.85);
+    padding: 10px;
 }
 
-#contact {
-    font-weight:800;
+div {
+    background-color: rgba(255,226,184,.4);
 }
