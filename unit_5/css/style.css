@@ -9,6 +9,10 @@ body {
     	/*background: #123819;*/
 }
 
+header p {
+    text-align: center;
+}
+
 nav {
     list-style-type: none;
     padding: 0;
@@ -56,6 +60,14 @@ aside img {
     width: 50%;
 }
 
+aside, article{
+    vertical-align: top;    
+}
+
+article{
+    width: 800px; 
+}
+
 h1 {
     font-family: 'Bree Serif', serif;
 }
@@ -86,6 +98,8 @@ p,ul {
 }
 
 ul {
+    width: 550px;
+    margin: 0 auto;
     color: #8eee05;
     font-weight: 800;
     letter-spacing: 3px;
@@ -96,6 +110,8 @@ ul {
 
 #slogan {
 	font-style: italic;
+    display: block;
+    margin: 0 auto;
 }
 
 #hero {
@@ -112,6 +128,17 @@ a:visited {
     color: #ff00ff;
 }
 
-footer {
-    vertical-align: bottom;
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+footer p {
+    margin: 0 auto;
+    display: block;
 }
