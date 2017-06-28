@@ -6,12 +6,17 @@ body {
 	background-image: url("../images/background0.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+    border: 9px #cccccc inset;
     	/*background: #123819;*/
+}
+
+header {
+    border: 7px #66cdaa inset;
+    padding: 20px;
 }
 
 header p {
     text-align: center;
-    border: 3px #ff4444 solid;
 }
 
 nav {
@@ -42,7 +47,8 @@ nav a:visited{
 }
 
 section {
-    border: 5px #FFFFFF solid;
+    border: 5px #ff4444 groove;
+    padding:20px;
     margin: auto;
     float: center;
 }
@@ -108,6 +114,7 @@ ul {
     word-spacing: 6px;
     line-height: 36px;
     font-family: 'Bree Serif', serif;
+    padding: 20px;
 }
 
 #slogan {
@@ -141,10 +148,17 @@ a:visited {
 }
 
 footer {
-    border: 3px #ccff00 solid;
+
+    border: 3px #ccff00 dotted;
+    padding: 20px;
 }
 
 footer p {
     margin: 0 auto;
     display: block;
+    background: rgba(139,0,0,.85);
+}
+
+#contact {
+    font-weight:800;
 }
