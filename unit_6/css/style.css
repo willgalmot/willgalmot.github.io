@@ -60,21 +60,21 @@ nav a:hover {
 
 section {
     border: /*1px #000000 solid*/ 5px #ff4444 groove;
-    background-color: /*rgba(255,226,184,.2)*/ rgba(255,68,68,.2);
+    /*background-color: /*rgba(255,226,184,.2) rgba(255,68,68,.2);*/
     padding:20px;
     margin: auto;
     /*float: left;*/
 }
 
 #two_column {
-    background-color: rgba(255,183,207,.2);
-    border: 1px black solid;
+    /*background-color: rgba(255,183,207,.2);
+    border: 1px black solid;*/
     padding: 20px;
 }
 
 #left {
-    background-color: rgba(238,130,238,.2);
-    border: 1px black solid;
+    /*background-color: rgba(238,130,238,.2);
+    border: 1px black solid;*/
     padding: 20px;
     float: left;
     width: 30%;
@@ -82,9 +82,9 @@ section {
 }
 
 #right {
-    background-color: rgba(255,192,203,.2);
-    border: 1px black solid;
-    padding: 20px;
+    /*background-color: rgba(255,192,203,.2);
+    border: 1px black solid;*/
+    padding: 240px 20px 240px 20px;
     float: right;   
     /*width: 62%;*/width: 50%;
 }
@@ -99,13 +99,13 @@ section {
 
 }
 
-article {
+/*article {
     /*margin-left: 225px;
-    width: 400px;*/
+    width: 400px;
      background-color: rgba(232,156,108,.2);
-}
+} 
 
-/*aside {
+aside {
     background-color: rgba(255,198,117,.2);
     
 }
