@@ -11,13 +11,14 @@ body {
 }
 
 header {
-    background-color: rgba(255,237,116,.4);
-    border: 1px #000000 solid /*7px #66cdaa inset*/;
+    background-color: rgba(255,237,116,.2);
+    border: /*1px #000000 solid*/ 7px #66cdaa inset;
     padding: 20px;
 }
 
 header h1 {
     padding: 15px;
+    font-family: 'Bree Serif', serif;
 }
 
 header p {
@@ -31,7 +32,7 @@ nav {
     padding: 0;
     overflow: hidden;
     margin: 0 auto;
-    background-color: /*#90091d*/ #E8C66A;
+    background-color: #90091d /*#E8C66A*/;
     text-align: center;
     width: 900px;
     word-spacing: 2px;
@@ -53,28 +54,65 @@ nav a:visited{
     color: #FFF4CC;
 }
 
+nav a:hover {
+    background-color: #FF4040;
+}
+
 section {
-    border: 1px #000000 solid /*5px #ff4444 groove*/;
-    background-color: rgba(255,226,184,.4) /*rgba(255,68,68,.4)*/;
+    border: /*1px #000000 solid*/ 5px #ff4444 groove;
+    background-color: /*rgba(255,226,184,.2)*/ rgba(255,68,68,.2);
     padding:20px;
     margin: auto;
+    /*float: left;*/
+}
+
+#two_column {
+    background-color: rgba(255,183,207,.2);
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: rgba(238,130,238,.2);
+    border: 1px black solid;
+    padding: 20px;
     float: left;
+    width: 30%;
+
+}
+
+#right {
+    background-color: rgba(255,192,203,.2);
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    /*width: 62%;*/width: 50%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+
 }
 
 article {
-    margin-left: 225px;
-    width: 400px;
-     background-color: rgba(232,156,108,.4);
+    /*margin-left: 225px;
+    width: 400px;*/
+     background-color: rgba(232,156,108,.2);
 }
 
-aside {
-    background-color: rgba(255,198,117,.4);
+/*aside {
+    background-color: rgba(255,198,117,.2);
     
 }
 
 aside img {
     display: block;
-    width: 50%;
+    
 }
 
 aside, article{
@@ -82,7 +120,7 @@ aside, article{
 }
 
 article{
-    width: 800px; 
+    width: 800px; */
 }
 
 h1 {
@@ -157,8 +195,8 @@ a:visited {
 }
 
 footer {
-    background-color: rgba(255,149,126,.4)/*rgba(204,255,0,.4)*/;
-    border: 1px #000000 solid /*3px #ccff00 dotted*/;
+    background-color: /*rgba(255,149,126,.2)*/rgba(204,255,0,.2);
+    border: /*1px #000000 solid*/ 3px #ccff00 dotted;
     padding: 20px;
 }
 
@@ -171,5 +209,5 @@ footer p {
 }
 
 div {
-    background-color: rgba(255,226,184,.4);
+    background-color: rgba(255,226,184,.2);
 }
