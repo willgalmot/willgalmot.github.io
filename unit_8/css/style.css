@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+body {
+	background-image: url("../images/background0.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    border: .5Em #cccccc inset;
+    	/*background: #123819;*/
+}
+
+header {
+    /*background-color: rgba(255,237,116,.2);*/
+    border: /*1px #000000 solid*/ .5Em #66cdaa inset;
+    padding: 1.25Em;
+}
+
+header h1 {
+    padding: 1Em;
+    font-family: 'Bree Serif', serif;
+}
+
+header p {
+    text-align: center;
+    padding: .25Em;
+    max-width: 350px;
+    width: 33%;
+}
+
+
+
+nav {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #90091d /*#E8C66A*/;
+    text-align: center;
+    width: 67%;
+    word-spacing: .125Em;
+    font-family: 'Bree Serif', serif;
+}
+
+nav a {
+    text-align: center;
+    padding: 3.125Em 3.125Em;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;   
+}
+
+nav a:link {
+    color: #FFC90E;
+}
+
+nav a:visited{
+    color: #FFF4CC;
+}
+
+nav a:hover {
+    background-color: #FF4040;
+}
+
+section {
+    border: /*1px #000000 solid*/ 5px #ff4444 groove;
+    /*background-color: /*rgba(255,226,184,.2) rgba(255,68,68,.2);*/
+    padding:1.25Em;
+    margin: auto;
+    /*float: left;*/
+}
+
+
+
+#two_column {
+    /*background-color: rgba(255,183,207,.2);
+    border: 1px black solid;*/
+    padding: 1.25Em;
+}
+
+#left {
+    /*background-color: rgba(238,130,238,.2);
+    border: 1px black solid;*/
+    padding: 1.25Em;
+    float: left;
+    width: 40%;
+
+}
+
+#right {
+    /*background-color: rgba(255,192,203,.2);
+    border: 1px black solid;*/
+    padding: 15Em 1.25Em 15Em 1.25Em;
+    float: right;   
+    /*width: 62%;*/width: 50%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+
+}
+
+
+h1 {
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+ }
+
+h1, p {
+    color: #FFC90E;
+    line-height: 1.5Em;
+    letter-spacing: .125Em;
+    word-spacing: .25Em;
+    text-align: center;
+}
+
+
+
+h1 {
+	background: #333333;
+}
+
+
+p,ul {
+	background: rgba(0, 64, 64, .85); 
+}
+
+ul {
+    width: 40%;
+    margin: 0 auto;
+    color: #8eee05;
+    font-weight: 800;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    line-height: 2.25Em;
+    font-family: 'Bree Serif', serif;
+    padding: 1.25Em;
+}
+
+span {letter-spacing: 2px; word-spacing: .25Em;}
+
+#slogan {
+	font-style: italic;
+    display: block;
+    margin: 0 auto;
+}
+
+#hero {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+a:link {
+    color: #ff80ff;
+}
+
+a:visited {
+    color: #ff00ff;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+footer {
+    /*background-color: /*rgba(255,149,126,.2)*/rgba(204,255,0,.2);*/
+    border: /*1px #000000 solid*/ 3px #ccff00 dotted;
+    padding: 1.25Em;
+}
+
+footer p {
+    margin: 0 auto;
+    display: block;
+    /*background: rgba(139,0,0,.85);*/
+    padding: 10px;
+    width: 90%;
+}
+
+div {
+    /*background-color: rgba(255,226,184,.2);*/
+}
+
+@media screen and (max-width: 480px) {
+    #left, #right {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}
