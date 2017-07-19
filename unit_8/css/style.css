@@ -61,6 +61,40 @@ nav a:hover {
     background-color: #FF4040;
 }
 
+#menu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #90091d /*#E8C66A*/;
+    text-align: center;
+    width: 67%;
+    word-spacing: .125Em;
+    font-family: 'Bree Serif', serif;
+}
+
+#menu a {
+    text-align: center;
+    padding: 3.125Em 3.125Em;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;   
+}
+
+#menu a:link {
+    color: #FFC90E;
+}
+
+#menu a:visited{
+    color: #FFF4CC;
+}
+
+#menu a:hover {
+    background-color: #FF4040;
+    color: #FFC90E;
+}
+
+}
+
 section {
     border: /*1px #000000 solid*/ 5px #ff4444 groove;
     /*background-color: /*rgba(255,226,184,.2) rgba(255,68,68,.2);*/
@@ -203,10 +237,21 @@ div {
     }
 }
 
+@media screen and (max-width: 480px) {
+     header p {
+        width: 84%;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    #left, #right {
-        float: none;
-        width: 100%;
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #menu {
+        display: none;
     }
 }
 
