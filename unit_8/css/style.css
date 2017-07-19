@@ -227,22 +227,19 @@ footer p {
     background-color: rgba(255,226,184,.2);
 }*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     #left, #right {
         float: none;
-        width: 100%;
+        width: 90%;
     }
-}
-
-@media screen and (max-width: 480px) {
-     header p {
+    header p {
         width: 84%;
     }
-}
-
-@media screen and (max-width: 768px) {
     nav {
         display: none;
+    }
+    footer ul {
+        width: 84%;
     }
 }
 
@@ -250,13 +247,3 @@ footer p {
     #menu {
         display: none;
     }
-}
-
-@media screen and (min-width: 768px) {
-    footer ul {
-        width: 90%;
-    }
-}
-
-
-
