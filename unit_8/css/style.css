@@ -93,7 +93,6 @@ nav a:hover {
     color: #FFC90E;
 }
 
-
 section {
     border: /*1px #000000 solid*/ 5px #ff4444 groove;
     /*background-color: /*rgba(255,226,184,.2) rgba(255,68,68,.2);*/
@@ -101,8 +100,6 @@ section {
     margin: auto;
     /*float: left;*/
 }
-
-
 
 #two_column {
     /*background-color: rgba(255,183,207,.2);
@@ -243,7 +240,17 @@ footer p {
     }
 }
 
+@media screen and (max-width: 480px) {
+    #left, #right {
+        width: 100%;
+    }
+
+    p, h1, footer ul {
+        width: 100%;
+}
+
 @media screen and (min-width: 768px) {
     #menu {
         display: none;
     }
+
