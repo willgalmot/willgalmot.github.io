@@ -28,8 +28,6 @@ header p {
     width: 33%;
 }
 
-
-
 nav {
     list-style-type: none;
     padding: 0;
@@ -122,6 +120,11 @@ section {
     padding: 15Em 1.25Em 15Em 1.25Em;
     float: right;   
     /*width: 62%;*/width: 50%;
+}
+
+#right-mobile {
+    width: 90%;
+    padding: 1.25Em, 1.25Em, 1.25Em, 1.25Em;
 }
 
 .clearfix:after {
@@ -229,12 +232,15 @@ footer p {
         float: none;
         width: 90%;
     }
+
     header p {
         width: 84%;
     }
+
     nav {
         display: none;
     }
+
     footer ul {
         width: 84%;
     }
@@ -242,21 +248,56 @@ footer p {
     #hero {
         width: 75%;
     }
+    
+    #right {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
     #menu {
         display: none;
+    }  
+
+    #right-mobile {
+        display: none;
     }
+}
 
 @media screen and (max-width: 480px) {
-    #left, #right {
+    #menu {
+        width: 95%;
+    }
+
+    #hero {
+        width: 90%;
+    }
+
+    section, #two-column, #left {
+        padding: 0;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header h1 {
+        font-size: 1.4Em;
+    }
+
+    section p, footer p, ul {
+        font-size: .85Em;
+    }
+
+    #left {
         width: 100%;
     }
 
     p, h1, footer ul {
-        width: 100%;
-}
+        width: 95%;
+    }
+    }
 
 
 
