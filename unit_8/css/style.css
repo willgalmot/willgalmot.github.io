@@ -127,6 +127,10 @@ section {
     padding: 1.25Em, 1.25Em, 1.25Em, 1.25Em;
 }
 
+#right-mobile: hover {
+    color: #FFC90E;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
