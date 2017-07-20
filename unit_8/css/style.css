@@ -256,13 +256,8 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-    #menu {
+    #menu, #right-mobile {
         display: none;
-    }  
-
-    #right-mobile {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 480px) {
