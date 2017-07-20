@@ -127,8 +127,9 @@ section {
     padding: 1.25Em, 1.25Em, 1.25Em, 1.25Em;
 }
 
-#right-mobile: hover {
+#right-mobile a: hover {
     color: #FFC90E;
+    padding: 0;
 }
 
 .clearfix:after {
