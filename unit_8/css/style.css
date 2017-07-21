@@ -7,6 +7,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
     border: .5Em #cccccc inset;
+    font-size: 16px;
     	/*background: #123819;*/
 }
 
@@ -35,14 +36,14 @@ nav {
     margin: 0 auto;
     background-color: #90091d /*#E8C66A*/;
     text-align: center;
-    width: 67%;
+    width: 64%;
     word-spacing: .125Em;
     font-family: 'Bree Serif', serif;
 }
 
 nav a {
     text-align: center;
-    padding: 3.125Em 3.125Em;
+    padding: 0 4%;
     text-decoration: none;
     font-family: 'Bree Serif', serif;   
 }
@@ -73,7 +74,7 @@ nav a:hover {
 
 #menu a {
     text-align: center;
-    padding: 3.125Em 3.125Em;
+    /*padding: 3.125Em 3.125Em;*/
     text-decoration: none;
     font-family: 'Bree Serif', serif;   
 }
@@ -117,14 +118,14 @@ section {
 #right {
     /*background-color: rgba(255,192,203,.2);
     border: 1px black solid;*/
-    padding: 15Em 1.25Em 15Em 1.25Em;
+    padding: 10Em 1.25Em;
     float: right;   
     /*width: 62%;*/width: 50%;
 }
 
 #right-mobile {
     width: 90%;
-    padding: 1.25Em, 1.25Em, 1.25Em, 1.25Em;
+    padding: 1.25Em;
 }
 
 #right-mobile a: hover {
@@ -233,7 +234,7 @@ footer p {
 }*/
 
 @media screen and (max-width: 768px) {
-    #left{
+    #left {
         float: none;
         width: 90%;
     }
@@ -258,23 +259,42 @@ footer p {
         display: none;
     }
 
+    #menu, #right-mobile {
+        display: block;
+    }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1024px) {
+    #right {
+        padding: 20Em 1.25Em;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
     #menu, #right-mobile {
         display: none;
+    }
+
+    #right {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
     #menu {
-        width: 95%;
+        width: 97%;
     }
 
     #hero {
         width: 90%;
     }
 
-    section, #two-column, #left {
+    ul, section, #two-column, #left {
         padding: 0;
     }
 
@@ -283,11 +303,9 @@ footer p {
     }
 
     header h1 {
-        font-size: 1.4Em;
-    }
-
-    section p, footer p, ul {
-        font-size: .85Em;
+        font-size: 1.5Em;
+        padding: 1em 0em;
+        margin: 0 auto;
     }
 
     #left {
@@ -295,7 +313,7 @@ footer p {
     }
 
     p, h1, footer ul {
-        width: 95%;
+        width: 100%;
     }
     }
 
