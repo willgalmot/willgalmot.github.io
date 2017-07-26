@@ -13,7 +13,7 @@ body {
 
 header {
     /*background-color: rgba(255,237,116,.2);*/
-    border: /*1px #000000 solid*/ .5Em #66cdaa inset;
+    border: /*1px #000000 solid*/ .1Em #66cdaa inset;
     padding: 1.25Em;
 }
 
@@ -291,7 +291,12 @@ footer p {
     }
 
     #hero {
-        width: 90%;
+        width: 97%;
+        padding-top, padding-bottom: 20px;
+    }
+    
+    header p {
+        width: 95.5%;
     }
 
     ul, section, #two-column, #left {
@@ -315,6 +320,11 @@ footer p {
     p, h1, footer ul {
         width: 100%;
     }
+
+    footer ul {
+        
+    }
+    
     }
 
 
