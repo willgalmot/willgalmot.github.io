@@ -317,12 +317,13 @@ footer p {
         width: 100%;
     }
 
-    p, h1, footer ul {
+    p, h1 {
         width: 100%;
     }
 
     footer ul {
-        
+        width: auto;
+        padding-left: 2em;
     }
     
     }
