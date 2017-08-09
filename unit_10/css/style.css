@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px) {
+	#resptop1, #resptop2, #respimg1, #respimg2, #respbottom1, #respbottom2 {
+		display: none;
+	}
+}
+@media screen and (max-width: 1024px) {
+	#page {
+		width: 200%;
+	}
+	#normtop, #normimgs, #normbottom {
+		display: none;
+	}
+}
+	
