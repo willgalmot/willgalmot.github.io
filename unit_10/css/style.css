@@ -4,9 +4,7 @@
 	}
 }
 @media screen and (max-width: 1024px) {
-	#page {
-		width: 200%;
-	}
+	
 	#normtop, #normimgs, #normbottom {
 		display: none;
 	}
